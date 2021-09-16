@@ -17,6 +17,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <h3 className="text-green-400 text-7xl">Testeeeeer</h3>
       </header>
     </div>
   );
