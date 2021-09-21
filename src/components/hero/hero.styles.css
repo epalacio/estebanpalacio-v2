@@ -1,0 +1,28 @@
+.hero-wave-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.hero-wave-bg svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 137px;
+}
+
+.hero-wave-bg .shape-fill {
+    fill: #01141F;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .hero-wave-bg svg {
+        width: calc(144% + 1.3px);
+        height: 40px;
+    }
+}

@@ -1,8 +1,8 @@
 import Hero from '../hero/hero.component'
-import About from '../about/hero.component'
-import Work from '../work/hero.component'
-import Stack from '../stack/hero.component'
-import Contact from '../contact/hero.component'
+import About from '../about/about.component'
+import Work from '../work/work.component'
+import TechStack from '../techStack/techStack.component'
+import Contact from '../contact/contact.component'
 
 const mainContent = () => {
     return ( 
@@ -10,7 +10,7 @@ const mainContent = () => {
         <Hero/>
         <About/>
         <Work/>
-        <Stack/>
+        <TechStack/>
         <Contact/>
     </div> 
     );
